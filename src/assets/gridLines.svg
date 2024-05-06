@@ -1,0 +1,17 @@
+.background-lines {
+  background-image: repeating-linear-gradient(
+    45deg, 
+    rgba(0, 0, 0, 0.1) 0px, 
+    rgba(0, 0, 0, 0.1) 1px, 
+    transparent 1px, 
+    transparent 50px
+  ),
+  repeating-linear-gradient(
+    -45deg, 
+    rgba(0, 0, 0, 0.1) 0px, 
+    rgba(0, 0, 0, 0.1) 1px, 
+    transparent 1px, 
+    transparent 50px
+  );
+  background-color: rgba(200, 0,0 ); /* Replace with your base color */
+}
